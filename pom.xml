@@ -3,16 +3,16 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.dwiechert</groupId>
-	<artifactId>${artifact}</artifactId>
+	<artifactId>${artifactId}</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>${name}</name>
 	<description>${description}</description>
-	<url>https://github.com/dwiechert/${artifactId}</url>
+	<url>https://github.com/dwiechert/${project.artifactId}</url>
 
 	<!-- Plug-ins and SCM found online - https://github.com/kevinsawicki/github-maven-example/blob/master/example/pom.xml -->
 	<issueManagement>
-		<url>https://github.com/dwiechert/${artifactId}/issues</url>
+		<url>https://github.com/dwiechert/${project.artifactId}/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
 
@@ -25,9 +25,9 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/dwiechert/${artifactId}</url>
-		<connection>scm:git:git://github.com/dwiechert/${artifactId}.git</connection>
-		<developerConnection>scm:git:git@github.com:dwiechert/${artifactId}.git</developerConnection>
+		<url>https://github.com/dwiechert/${project.artifactId}</url>
+		<connection>scm:git:git://github.com/dwiechert/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com:dwiechert/${project.artifactId}.git</developerConnection>
 	</scm>
 
 	<developers>
